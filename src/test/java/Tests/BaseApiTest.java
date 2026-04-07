@@ -13,8 +13,6 @@ public class BaseApiTest {
     protected static RequestSpecification requestSpec;
     protected static ResponseSpecification responseSpec;
 
-
-
     private static String username = "admin";
     private static String password = "password123";
     private static String uri = "https://restful-booker.herokuapp.com";
@@ -32,10 +30,8 @@ public class BaseApiTest {
 
 
         responseSpec = new ResponseSpecBuilder()
-                .expectResponseTime(lessThan(3000L)) // Każdy test ma trwać < 3s
+                .expectResponseTime(lessThan(3000L))
                 .build();
 
-
     }
-
 }

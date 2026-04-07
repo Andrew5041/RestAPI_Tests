@@ -11,7 +11,7 @@ public class Booking {
     private String lastname;
     private int totalprice;
     private boolean depositpaid;
-    private BookingDates bookingdates; // Kompozycja!
+    private BookingDates bookingdates;
     private String additionalneeds;
 
     public Booking() {

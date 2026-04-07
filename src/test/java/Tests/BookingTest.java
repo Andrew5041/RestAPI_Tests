@@ -28,17 +28,5 @@ public class BookingTest extends BaseApiTest {
                 .spec(responseSpec)
                 .statusCode(200);
 
-
-
     }
-
-
-
-
-
-
-
-
-
-
 }

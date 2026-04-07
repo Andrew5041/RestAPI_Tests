@@ -39,5 +39,4 @@ public class DeserializationTest extends BaseApiTest{
     Assertions.assertEquals(sentBooking.getFirstname(), receivedBooking.getFirstname());
 
     }
-
 }
