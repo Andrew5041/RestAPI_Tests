@@ -1,4 +1,4 @@
-package Models;
+package RestfulBooker.Models;
 
 import lombok.Builder;
 import lombok.Data;

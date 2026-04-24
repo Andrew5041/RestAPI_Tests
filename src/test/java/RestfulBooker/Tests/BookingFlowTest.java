@@ -1,16 +1,12 @@
-package Tests;
+package RestfulBooker.Tests;
 
-import Models.AuthCredentials;
-import Models.Booking;
-import Models.BookingDates;
-import com.sun.net.httpserver.Request;
-import org.junit.jupiter.api.Test;
+import RestfulBooker.Models.AuthCredentials;
+import RestfulBooker.Models.Booking;
+import RestfulBooker.Models.BookingDates;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import static Tests.BaseApiTest.requestSpec;
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.requestSpecification;
 
 
 public class BookingFlowTest extends BaseApiTest {

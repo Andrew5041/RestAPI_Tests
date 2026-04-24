@@ -1,7 +1,7 @@
-package Tests;
+package RestfulBooker.Tests;
 
-import Models.Booking;
-import Models.BookingDates;
+import RestfulBooker.Models.Booking;
+import RestfulBooker.Models.BookingDates;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package Tests;
+package RestfulBooker.Tests;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;

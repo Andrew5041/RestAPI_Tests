@@ -1,4 +1,4 @@
-package Models;
+package RestfulBooker.Models;
 
 public class AuthCredentials {
 

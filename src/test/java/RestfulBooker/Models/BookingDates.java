@@ -1,9 +1,7 @@
-package Models;
+package RestfulBooker.Models;
 
-import Tests.BaseApiTest;
 import lombok.Builder;
 import lombok.Data;
-import org.junit.jupiter.api.Test;
 
 @Data
 @Builder
